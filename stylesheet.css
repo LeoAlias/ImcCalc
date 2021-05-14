@@ -1,0 +1,45 @@
+body {
+    background-image: url("imagenes/2454878.png");
+}
+.header {
+    border: 2px solid rgb(76, 76, 179);
+    margin-top: 2px;
+    width: 100%;
+    height: 70px;
+    text-align: center;
+    justify-content: space-between;
+    border-radius: 20px;
+    background: linear-gradient(to left, blue, lightblue)
+}
+
+h1 {
+    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+    font-size: 30px;
+    color: cornsilk;
+
+}
+article {
+    display: inline-table;
+    border: 2px solid rgb(55, 240, 9);
+    margin: 2px 2px 2px 2px;
+    width: 250px;
+    height: 300px;
+    padding: 5px;
+    justify-content: center;
+    text-align: center;
+    border-radius: 20px;
+    background: linear-gradient(to left, rgb(51, 233, 6), rgb(176, 236, 161))
+}
+div {
+    display: inline-table;
+    border: 2px solid red;
+    margin: 2px 2px 2px 2px;
+    padding: 5px;
+    width: 250px;
+    height: 300px;
+    padding: 5px;
+    justify-content: center;
+    text-align: left;
+    border-radius: 20px;
+    background: linear-gradient(to left, rgb(245, 6, 6), rgb(240, 206, 206)) 
+}
