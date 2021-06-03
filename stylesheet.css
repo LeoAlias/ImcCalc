@@ -19,8 +19,9 @@ h1 {
 
 }
 article {
+    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
     display: inline-table;
-    border: 2px solid rgb(55, 240, 9);
+    border: 2px solid rgb(118, 50, 245);
     margin: 2px 2px 2px 2px;
     width: 250px;
     height: 300px;
@@ -28,11 +29,11 @@ article {
     justify-content: center;
     text-align: center;
     border-radius: 20px;
-    background: linear-gradient(to left, rgb(51, 233, 6), rgb(176, 236, 161))
+    background: linear-gradient(to left, rgb(188, 34, 226), rgb(227, 201, 245))
 }
 div {
     display: inline-table;
-    border: 2px solid red;
+    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
     margin: 2px 2px 2px 2px;
     padding: 5px;
     width: 250px;
@@ -41,5 +42,22 @@ div {
     justify-content: center;
     text-align: left;
     border-radius: 20px;
-    background: linear-gradient(to left, rgb(245, 6, 6), rgb(240, 206, 206)) 
+    
+}
+.green {
+    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+    display: inline-table;
+    border: 2px solid rgb(55, 240, 9);
+    margin: 2px 2px 2px 2px;
+    width: 250px;
+    height: 300px;
+    padding: 5px;
+    justify-content: center;
+    text-align: left;
+    border-radius: 20px;
+    background: linear-gradient(to left, rgb(51, 233, 6), rgb(176, 236, 161))
+}
+.red {
+    border: 2px solid red;
+    background: linear-gradient(to left, rgb(245, 6, 6), rgb(240, 206, 206)) ;
 }
