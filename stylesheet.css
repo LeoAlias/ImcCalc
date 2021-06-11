@@ -1,3 +1,8 @@
+body {
+    height: 900PX;
+}
+
+
 a {
     color: lightskyblue;
     font-style: bold;
@@ -7,20 +12,20 @@ a {
     margin-top: 2rem;
     margin-left: 2px;
     margin-right: 2px;
-    margin-bottom: 2px;
+    margin-bottom: -7rem;
     padding: 0;
     display: flex; 
 }
 .article2 {
     border: 2px solid rgb(118, 50, 245);
     width: 260px;
-    height: 300px;
+    height: 280px;
     padding: 1rem;
     justify-content: center;
     text-align: left;
     border-radius: 20px;
     background: linear-gradient(to left, rgb(188, 34, 226), rgb(227, 201, 245));
-    display: flex;
+    display:flex;
 }
 .form2 {
     padding-right: 1rem;
@@ -36,8 +41,11 @@ a {
     border-radius: 20px;
     color: rgb(227, 201, 245);
     font-size: 14px;
-    margin: 6px;
     padding: 6px;
+    margin-top: 1rem;
+    margin-bottom: 1rem;
+    margin-right: 1rem;
+    margin-left: 1rem;
     display: inline;
 }
 

@@ -63,8 +63,8 @@ formulario.addEventListener("submit", function (e) {
     };
     persona.mostrarImc();
     var personcard = `<h3> Nombre: ${persona.nombre}</h3>
-    <h3> Peso: ${persona.peso}</h3>
-    <h3> Altura: ${persona.altura}</h3>
+    <h3> Peso: ${persona.peso} kgs.</h3>
+    <h3> Altura: ${persona.altura} mts.</h3>
     <h3> IMC: ${persona.imc}</h3>
     <h3> ${persona.imcMsg}</h3>`
     if (persona.imc >= 24.9) {
