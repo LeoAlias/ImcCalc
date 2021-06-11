@@ -42,7 +42,7 @@ class Persona {
 const guardar = (clave, valor) => { localStorage.setItem(clave, valor); }
 
 let formulario = document.querySelector("form");
-    formulario.addEventListener("submit", function (e) {
+formulario.addEventListener("submit", function (e) {
     e.preventDefault();
 
     let nombre = $("#nombre").val();
@@ -56,9 +56,7 @@ let formulario = document.querySelector("form");
     else {
         var persona = new Persona(nombre, email, peso, altura);
         personas.push(persona);
-        // const personJSON = JSON.stringify(persona);
         const personasJSON = JSON.stringify(personas);
-        // guardar(persona.email, personJSON);
         guardar(persona.email, personasJSON);
         alert("usuario creado correctamente");
         document.getElementById("form").reset();

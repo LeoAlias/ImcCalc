@@ -1,56 +1,52 @@
-body {
-    background-image: url("imagenes/2454878.png");
+a {
+    color: lightskyblue;
+    font-style: bold;
+    font-size: 20px;
 }
-.header {
-    border: 2px solid rgb(76, 76, 179);
-    margin-top: 2px;
-    width: 100%;
-    height: 70px;
-    text-align: center;
-    justify-content: space-between;
-    border-radius: 20px;
-    background: linear-gradient(to left, blue, lightblue)
+.box2 {
+    margin-top: 2rem;
+    margin-left: 2px;
+    margin-right: 2px;
+    margin-bottom: 2px;
+    padding: 0;
+    display: flex; 
 }
-
-h1 {
-    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
-    font-size: 30px;
-    color: cornsilk;
-
-}
-article {
-    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
-    display: inline-table;
+.article2 {
     border: 2px solid rgb(118, 50, 245);
-    margin: 2px 2px 2px 2px;
-    width: 250px;
+    width: 260px;
     height: 300px;
-    padding: 5px;
-    justify-content: center;
-    text-align: center;
-    border-radius: 20px;
-    background: linear-gradient(to left, rgb(188, 34, 226), rgb(227, 201, 245))
-}
-div {
-    display: inline-table;
-    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
-    margin: 2px 2px 2px 2px;
-    padding: 5px;
-    width: 250px;
-    height: 300px;
-    padding: 5px;
+    padding: 1rem;
     justify-content: center;
     text-align: left;
     border-radius: 20px;
-    
+    background: linear-gradient(to left, rgb(188, 34, 226), rgb(227, 201, 245));
+    display: flex;
 }
+.form2 {
+    padding-right: 1rem;
+    padding-left: 1px;
+}
+.titulo2 {
+    margin-left: 10px;
+    padding: 6px;
+}
+.boton2 {
+    background-color: rgb(134, 3, 167);
+    border: rgb(134, 3, 167);
+    border-radius: 20px;
+    color: rgb(227, 201, 245);
+    font-size: 14px;
+    margin: 6px;
+    padding: 6px;
+    display: inline;
+}
+
 .green {
-    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
     display: inline-table;
     border: 2px solid rgb(55, 240, 9);
     margin: 2px 2px 2px 2px;
     width: 250px;
-    height: 300px;
+    height: auto;
     padding: 5px;
     justify-content: center;
     text-align: left;
@@ -58,6 +54,18 @@ div {
     background: linear-gradient(to left, rgb(51, 233, 6), rgb(176, 236, 161))
 }
 .red {
+    display: inline-table;
     border: 2px solid red;
+    margin: 2px 2px 2px 2px;
+    width: 250px;
+    height: auto;
+    padding: 5px;
+    justify-content: center;
+    text-align: left;
+    border-radius: 20px;
     background: linear-gradient(to left, rgb(245, 6, 6), rgb(240, 206, 206)) ;
+}
+
+.encabezado {
+    margin-bottom: -6rem;
 }
